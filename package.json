@@ -1,0 +1,15 @@
+{
+  "name": "insta-comment-dm",
+  "version": "1.0.0",
+  "description": "Instagram 게시물 댓글 → 자동 DM(비공개 답장) → 댓글 좋아요로 처리 표시",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "backfill": "node scripts/backfill.js",
+    "test": "node --test"
+  }
+}
